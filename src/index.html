@@ -7,6 +7,7 @@
 </head>
 
 <body>
+  <section class="global-section">
   <section class= "first-section">
    <!-- Este es el título de mi Cifrado-->
     <h1>¡REVELA EL MENSAJE OCULTO!</h1>
@@ -16,12 +17,9 @@
        <button id "btnenter">Ingresar</button>
 
 <!-- Indicar posiciones del codigo cifrado -->
-<p id = "tTwo">N° de desplazamiento
-<br>(Es el número de espacios que se movera cada letra dentro del alfabeto)</br></p>
-<input type="text" >
+<p id = "tTwo">N° de desplazamiento</p>
+<input class="number" type="number" min="1" max="100">
 
-<!-- boton descifrado -->
-<button id= "buttonTwo">Descifrar</button>
 
 <!-- texto de tu codigo descifrado -->
 <p id = "tThree">El mensaje oculto <strong>descifrado</strong> es:</p> 
@@ -36,13 +34,8 @@
   <button id "btnentertwo">Ingresar</button>
 
 <!-- Indicar posiciones del codigo cifrado -->
-<p id = "tTwo">N° de desplazamiento
-  <br>(Es el número de espacios que se movera cada letra dentro del alfabeto)</br></p> 
-<input type="text" >
-
-
-<!-- boton descifrado -->
-<button id= "buttonTwo">Cifrar</button>
+<p id = "tTwo">N° de desplazamiento</p> 
+<input class="number" type="number" min="1" max="100">
 
 <!-- texto de tu codigo cifrado -->
 <p id = "tThree">El mensaje <strong>cifrado</strong> es:</p> 
@@ -51,12 +44,11 @@
 
 </section>
 
+</section>
 
+ 
 
-
-
-
-  <div id="root"></div>
+<div id="root"></div>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>

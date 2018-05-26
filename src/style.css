@@ -1,12 +1,25 @@
 /* Acá va tu código */
 body {
     background-image:url(foto/birthday_4.jpg);
+    padding: 1em 3em 
+}
+.global-section{
+    width: 100%;
+    height: 100%;
  }
  .first-section {
-    border:solid;
+    border: solid;
     text-align: center;
+    width: 600px;
+    height: 310px;
+    display: inline-block;
+    float: left;
 }
 .second-section {
-    border:solid;
-    text-align:center;
+    border: solid;
+    text-align: center;
+    width: 600px;
+    height: 310px;
+    display: inline-block;
+    float: right;
 }
