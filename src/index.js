@@ -1,1 +1,8 @@
-/* Acá va tu código */
+/* Acá va tu código , (manejo del DOM)*/ 
+window.onload = => (){
+
+
+
+
+    
+}
