@@ -1,4 +1,7 @@
 /* Acá va tu código */
+h1{
+    text-align: center   
+}
 body {
     background-image:url(foto/birthday_4.jpg);
     padding: 1em 3em 
@@ -22,4 +25,9 @@ body {
     height: 310px;
     display: inline-block;
     float: right;
+}
+#send-received {
+    resize: none;
+    width:300px;
+    height:30px;
 }
