@@ -9,39 +9,45 @@
 <body>
   <h1>ORGANIZA TU FIESTA SORPRESA</h1>
   <section class="global-section">
+
   <section class= "first-section">
+
    <!-- Este es el título de mi Cifrado-->
     <h2>¡REVELA EL MENSAJE OCULTO!</h2>
+
   <!-- Texto para ingresar el mensaje cifrado -->
        <p id="tOne">Escribe el mensaje que recibiste y lo descubrirás:</p>
+        <!-- con textarea se puede adaptar el tamaño de la caja de registro -->
        <textarea id="send-received" placeholder="Mensaje recibido"></textarea>
-       <button id "btnenter">Ingresar</button>
+       <button id= "btnenter"onclick="myFunctionOne()">Ingresar</button>
 
 <!-- Indicar posiciones del codigo cifrado -->
 <p id = "tTwo">N° de desplazamiento</p>
 <input class="number" type="number" min="1" max="100">
+<button id= "btnumber"onclick="myFunctionTwo()">►</button>
 
-
-<!-- texto de tu codigo descifrado -->
-<p id = "tThree">El mensaje oculto <strong>descifrado</strong> es:</p> 
+<!-- texto de tu codigo descodificado, se debe unir en js con document.getElementById-->
+<p class="answer" id = "msjDecoded">El mensaje oculto <strong>descodificado</strong> es:</p> 
 </section>
 
 <section class= "second-section">
-  <!-- Este es el título de mi Cifrado-->
+  <!-- Este es el título de mi Codificado-->
   <h2>¡OCULTA TU MENSAJE!</h2>
-  <!-- Texto para ingresar el mensaje descifrado -->
-  <p="tOne">Escribe el mensaje que quieres enviar:</p>
-  <textarea id="send-received" placeholder="Mensaje recibido"></textarea>
-  <button id "btnentertwo">Ingresar</button>
+  <!-- Texto para ingresar el mensaje descodificado -->
+  <p id="tOne">Escribe el mensaje que quieres enviar:</p>
+  <!-- con textarea se puede adaptar el tamaño de la caja de registro -->
+  <textarea id="send-received" placeholder="Mensaje para enviar"></textarea>
+  <button id="btnentertwo" onclick="myFunctionThree()">Ingresar</button>
 
-<!-- Indicar posiciones del codigo cifrado -->
+<!-- Indicar posiciones del codigo descodificado -->
 <p id = "tTwo">N° de desplazamiento</p> 
 <input class="number" type="number" min="1" max="100">
+<button id= "btnumber" onclick="myFunctionFour()">►</button>
 
-<!-- texto de tu codigo cifrado -->
-<p id = "tThree">El mensaje <strong>cifrado</strong> es:</p> 
-
-<p>*Ahora puedes copiar y enviar este mensaje, solo indicando el número de desplazamiento y será secreto!!!</p>
+<!-- texto de tu codigo codificado se debe unir en js con document.getElementById-->
+<p class="answer" id="msjEncoded">El mensaje <strong>codificado</strong> es:</p> 
+<!-- Nota al momento de codificar se debe unir en js con document.getElementById-->
+<p class="noteEncoded" id="note">*Ahora puedes copiar y enviar este mensaje, solo indicando el número de desplazamiento y será secreto!!!</p>
 
 </section>
 

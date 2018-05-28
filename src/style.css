@@ -1,33 +1,70 @@
 /* Acá va tu código */
 h1{
-    text-align: center   
+    text-align:center; 
+    color: rgb(7, 56, 85);
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 body {
-    background-image:url(foto/birthday_4.jpg);
+    background-image:url(foto/birthday_2.jpg);
     padding: 1em 3em 
-}
+    }
+
 .global-section{
     width: 100%;
     height: 100%;
  }
+ h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(8, 150, 185);
+ }
  .first-section {
-    border: solid;
+    background-color: white;
+    border: solid 3px;
+    border-color: grey;
+    border-radius: 5px;
     text-align: center;
     width: 600px;
-    height: 310px;
+    height: 350px;
     display: inline-block;
     float: left;
+    
 }
 .second-section {
-    border: solid;
+    background-color: white;
+    border: solid 3px;
+    border-color: grey;
+    border-radius: 5px;
     text-align: center;
     width: 600px;
-    height: 310px;
+    height: 350px;
     display: inline-block;
     float: right;
 }
-#send-received {
-    resize: none;
-    width:300px;
-    height:30px;
+#tOne {/*escribe el msj que recibiste y el que quieres enviar*/
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+#tTwo {/*n de desplazamiento*/
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+#send-received {/*Textarea, cuadro de texto para ingresar el msj*/
+resize: none;
+width: 300px;
+height:30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+#btnenter {/*boton ingresar (mensaje recibido)*/
+position: relative;
+bottom: 15px;
+}
+#btnentertwo {/*boton ingresar (mensaje para enviar)*/
+position: relative;
+bottom: 15px;    
+}
+.answer{/*el mensaje codificado es*/
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.noteEncoded{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
 }
