@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Fiesta Sorpres</title>
+  <title>Fiesta Sorpresa</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -20,8 +20,8 @@
         <textarea id="sendDecoded" placeholder="Mensaje recibido"></textarea>
         <!-- Indicar numero posiciones del codigo cifrado -->
         <p id = "tTwo">N° de desplazamiento</p>
-        <input class="number" type="number" min="1" max="100">
-        <button id= "btnEnter"onclick="myFunctionOne()">Ingresar</button>
+        <input class="number" type="number" min="1" max="100" value="">
+        <button id= "btnEnterDecoded">Ingresar</button>
         <!-- texto de tu codigo decodificado, se debe unir en js con document.getElementById-->
          <p class="answerDecoded" id = "msjDecoded">El mensaje oculto <strong>decodificado</strong> es:</p> 
     </section>
@@ -32,15 +32,15 @@
         <!-- Texto para ingresar el mensaje decodificado -->
         <p id="tOne">Escribe el mensaje que quieres enviar:</p>
         <!-- con textarea se puede adaptar el tamaño de la caja de registro -->
-        <textarea id="receivedEncoded" placeholder="Mensaje para enviar"></textarea>
+        <textarea id="receivedCoded" placeholder="Mensaje para enviar"></textarea>
         <!-- Indicar posiciones del codigo descodificado -->
         <p id = "tTwo">N° de desplazamiento</p> 
-        <input class="number" type="number" min="1" max="100">
-        <button id="btnentertwo" onclick="myFunctionTwo()">Ingresar</button>
+        <input class="number" type="number" min="1" max="100" value="">
+        <button id="btnEnterCoded">Ingresar</button>
         <!-- texto de tu codigo codificado se debe unir en js con document.getElementById-->
-        <p class="answerEncoded" id="msjEncoded">El mensaje <strong>codificado</strong> es:</p> 
+        <p class="answerCoded" id="msjCoded">El mensaje <strong>codificado</strong> es:</p> 
         <!-- Nota al momento de codificar se debe unir en js con document.getElementById-->
-        <p class="noteEncoded" id="note">*Ahora puedes copiar y enviar este mensaje, solo indicando el número de desplazamiento y será secreto!!!</p>
+        <p class="noteCoded" id="note">*Ahora puedes copiar y enviar este mensaje, solo indicando el número de desplazamiento y será secreto!!!</p>
 
     </section>
 

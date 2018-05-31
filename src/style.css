@@ -1,7 +1,7 @@
 /* Acá va tu código */
 /*Imagen de fondo para el body*/
 body {
-    background-image:url(foto/birthday_2.jpg);
+    background-image:url(img/img6.png);
     padding: 1em 3em 
 }
 /*La sección completa*/
@@ -30,7 +30,7 @@ h1{
     float: left;
 }
 /*Titulo para "codificar y decodificar"*/
- h2{
+h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(8, 150, 185);
 }
@@ -71,23 +71,23 @@ h1{
     float: right
 }
 /*Textarea, cuadro de texto para ingresar el msj para codificar*/
-#receivedEndoded {
+#receivedCoded {
     resize: none;
     width: 300px;
     height:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 /*boton ingresar (mensaje para enviar)*/
-#btnEntertwo {
+#btnEnterCoded {
     position: relative;
     bottom: 0px;    
 }
 /*Texto el mensaje codificado es*/
-.answerEncoded{
+.answerCoded{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 /*Nota para saber como enviar el msj codificado*/
-.noteEncoded{
+.noteCoded{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
 }
 
