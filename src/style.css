@@ -3,12 +3,12 @@
 body {
     background-image:url(foto/birthday_2.jpg);
     padding: 1em 3em 
-    }
+}
 /*La sección completa*/
 .global-section{
     width: 100%;
     height: 100%;
-   }
+}
 /*Titulo de mi cifrado*/
 h1{
     text-align:center; 
@@ -16,7 +16,7 @@ h1{
     background-color: white;
     border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    }
+}
 /*Ubicación del segundo cuadro "Decodificar"*/
 .first-section {
     background-color: white;
@@ -28,16 +28,16 @@ h1{
     height: 350px;
     display: inline-block;
     float: left;
-    }
+}
 /*Titulo para "codificar y decodificar"*/
  h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(8, 150, 185);
-    }
+}
 /*texto escribe el msj que recibiste y el que quieres enviar(para codificar y decodificar)*/
 #tOne {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    }
+}
 /*texto n de desplazamiento*/
 #tTwo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -48,12 +48,12 @@ h1{
     width: 300px;
     height:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    }
+}
 /*boton ingresar (mensaje recibido)*/
 #btnEnter {
     position: relative;
     bottom: 0px;
-    }
+}
 /*Texto el mensaje Decodificado es*/
 .answerDecoded {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -68,25 +68,27 @@ h1{
     width: 600px;
     height: 350px;
     display: inline-block;
-    float: right;
-    }
+    float: right
+}
 /*Textarea, cuadro de texto para ingresar el msj para codificar*/
- #receivedEndoded {
+#receivedEndoded {
     resize: none;
     width: 300px;
     height:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    }
+}
 /*boton ingresar (mensaje para enviar)*/
 #btnEntertwo {
     position: relative;
     bottom: 0px;    
-    }
+}
 /*Texto el mensaje codificado es*/
 .answerEncoded{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    }
+}
 /*Nota para saber como enviar el msj codificado*/
 .noteEncoded{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
-    }
+}
+
+   
