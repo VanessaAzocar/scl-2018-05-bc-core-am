@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fiesta Sorpresa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Seccion completa -->
+  <section class="global-section">
+    <h1>ORGANIZA TU FIESTA SORPRESA</h1>
+
+    <!-- Primer cuadro para decodificar -->
+    <section class= "first-section">
+        <!-- Este es el título de mi Cifrado-->
+        <h2>¡REVELA EL MENSAJE OCULTO!</h2>
+        <!-- Texto para ingresar el mensaje cifrado -->
+        <p id="tDecoded">Escribe el mensaje que recibiste y lo descubrirás:</p>
+        <!-- con textarea se puede adaptar el tamaño de la caja de registro -->
+        <textarea id="sendDecoded" placeholder="Mensaje recibido"></textarea>
+        <!-- Indicar numero posiciones del codigo cifrado -->
+        <p id= "displaceDecoded">N° de desplazamiento</p>
+        <input id="numberDecoded" type="number" min="1" max="100">
+        <!-- boton para ingresar el n° de desplazamiento -->
+        <button id= "btnEnterDecoded">Ingresar</button>
+        <!-- mensaje con la solucion-->
+        <p id= "msjDecoded"></p>
+    </section>  
+
+    <!-- Segundo cuadro para Codificar -->
+    <section class= "second-section">
+        <!-- Este es el título de mi texto Decodificado-->
+        <h2>¡OCULTA TU MENSAJE!</h2>
+        <!-- Texto para ingresar el mensaje decodificado -->
+        <p id="tCoded">Escribe el mensaje que quieres enviar:</p>
+        <!-- con textarea se puede adaptar el tamaño de la caja de registro -->
+        <textarea id="receivedCoded" placeholder="Mensaje para enviar"></textarea>
+        <!-- Indicar posiciones del codigo decodificado -->
+        <p id= "displaceCoded">N° de desplazamiento</p> 
+        <input id="numberCoded" type="number" min="1" max="100">
+        <!-- boton para ingresar el n° de desplazamiento -->
+        <button id="btnEnterCoded">Ingresar</button>   
+        <!-- mensaje con la solucion-->
+        <p id= "msjCoded"></p>         
+    </section>
+  </section> 
+  <div id="root"></div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

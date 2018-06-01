@@ -1,0 +1,105 @@
+/*Imagen de fondo para el body*/
+body {
+    background-image:url(img/img6.png);
+    padding: 1em 3em 
+}
+/*La sección completa*/
+.global-section{
+    width: 100%;
+    height: 100%;
+}
+/*Titulo de mi cifrado*/
+h1{
+    text-align:center; 
+    font-size: 30px;
+    color: rgb(7, 56, 85);
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/*Ubicación del segundo cuadro "Decodificar"*/
+.first-section {
+    background-color: white;
+    border: solid 3px;
+    border-color: grey;
+    border-radius: 5px;
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    display: inline-block;
+    float: left;
+}
+/*Titulo para "codificar y decodificar"*/
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(8, 150, 185);
+}
+/*texto escribe el msj que recibiste y lo descubriras*/
+#tDecoded {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/*texto n de desplazamiento*/
+#displaceDecoded{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/*Textarea, cuadro de texto para ingresar el msj para decodificar*/
+#sendDecoded{
+    resize: none;
+    width: 300px;
+    height:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/*boton ingresar (mensaje recibido)*/
+#btnEnter {
+    position: relative;
+    bottom: 0px;
+}
+/*la frase de resultado*/
+#msjDecoded{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(5, 68, 68);
+    font-weight: bold;
+    font-size: 15px;
+}
+/*Ubicación del cuadro "Codificar"*/
+.second-section {
+    float: right;
+    background-color: white;
+    border: solid 3px;
+    border-color: grey;
+    border-radius: 5px;
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    display: inline-block;
+    }
+/*Textarea, cuadro de texto para ingresar el msj para codificar*/
+#receivedCoded {
+    resize: none;
+    width: 300px;
+    height:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/*es el texto de "escribe tu msj que quieres enviar*/
+#tCoded {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
+/*texto n de desplazamiento*/
+#displaceCoded{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/*boton ingresar (mensaje para enviar)*/
+#btnEnterCoded {
+    position: relative;
+    bottom: 0px;    
+}
+/*la frase de resultado*/
+#msjCoded{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(5, 68, 68);
+    font-size: 15px;
+}
+
+   
