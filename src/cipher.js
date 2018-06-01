@@ -8,7 +8,7 @@ window.cipher = { /* Acá va tu código */
       //convierte mayuscula
       let tMayus= decodedSend.toUpperCase();
       //Formula del cifrado
-      fraseCoded= ((decodedSend.charCodeAt(i)- 65 + decodedNumber)) % 26 + 65;
+      fraseCoded= (tMayus.charCodeAt(i) - 65 + parseInt(decodedNumber)) % 26 + 65;
       //guarda cada resultado de cada letra para despues mostrar la frase completa 
       result += String.fromCharCode(fraseCoded);
   } 
