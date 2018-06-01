@@ -16,7 +16,7 @@ window.cipher = { /* Acá va tu código */
           //guarda cada resultado de cada letra para despues mostrar la frase completa
           if (fraseDecoded < 65){
           fraseDecoded += 26;
-          }
+        }
           result += String.fromCharCode(fraseDecoded);
         }   
       } 

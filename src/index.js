@@ -17,6 +17,4 @@ window.onload = () => {
     let resultCoded = window.cipher.encode(codedSend, codedNumber); /*para enlazar el texto codificado*/
     document.getElementById("msjCoded").innerHTML = "<strong>El mensaje codificado es: </strong>" + "<strong>"+ resultCoded + "</strong>" + "<br><br>*Ahora puedes copiar y enviar este mensaje, solo indicando el número de desplazamiento y será secreto!!!</br></br>"; /*que reguese el resultado*/
   })
-
-    
-  }
+}
