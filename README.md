@@ -17,9 +17,13 @@ Tienes dos opciones:
 *Ya puedes descubrir el mensaje secreto que te enviaron!!!
 
 ## Descarga la aplicación
-* Ingresa a este [https://github.com/VanessaAzocar/scl-2018-05-bc-core-am.git]
+* Ingresa a este [link](https://github.com/VanessaAzocar/scl-2018-05-bc-core-am.git)
 * Descarga la aplicación haciendo click en el boton verde llamado "clone or download" que se encuentra en la esquina superior derecha.
-*Haz click en "Download ZIP"
+* Haz click en "Download ZIP" y descarga la carpeta donde prefieras.
+* Descomprime la carpeta que acabas de descargar.
+* En el archivo que descargaste ingresa a la carpeta "src"
+* Haz doble click en el archivo "index.html" y se abrira en tu navegador.
+* LISTO! Ahora puedes Codificar y Decodificar tus mensajes. 
 
 
 
