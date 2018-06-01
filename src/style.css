@@ -42,7 +42,7 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 /*texto n de desplazamiento*/
-#tDisplace{
+#displaceDecoded{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 /*Textarea, cuadro de texto para ingresar el msj para decodificar*/
@@ -87,6 +87,10 @@ h2{
 #tCoded {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     }
+/*texto n de desplazamiento*/
+#displaceCoded{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
 /*boton ingresar (mensaje para enviar)*/
 #btnEnterCoded {
     position: relative;
