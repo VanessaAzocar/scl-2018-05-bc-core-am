@@ -1,23 +1,23 @@
-window.cipher = {
-  encode: () => {
-    /* Acá va tu código */
-    //Funciones trozos de codigos reutilizable
-    const frase = "vanessa azocar";
+window.cipher = { /* Acá va tu código */
+  encode: (decodedSend, decodedNumber) => {
+    //
     let result = "";
     let i =0;
-      for ( i ; i < frase.length; i++) {
-        fraseCoded= ((frase.charCodeAt(i)-65+numberDecoded))%26+65;
-           
-      result += frase[i].toUpperCase();
-      console.log(result)
-  }
- 
-  iteracion();
+      //iteracion que hara a mi frase
+      for ( i ; i < decodedSend.length; i++) {
+      //convierte mayuscula
+      let tMayus= decodedSend.toUpperCase();
+      //Formula del cifrado
+      fraseCoded= ((decodedSend.charCodeAt(i)- 65 + decodedNumber)) % 26 + 65;
+      //guarda cada resultado de cada letra para despues mostrar la frase completa 
+      result += String.fromCharCode(fraseCoded);
+  } 
+  return result;
    
   },
 
 
-  decode: () => {
+  decode: (codedSend, codednumber) => {
     /* Acá va tu código */
   }
 }
