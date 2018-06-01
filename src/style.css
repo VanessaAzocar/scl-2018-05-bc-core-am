@@ -37,14 +37,14 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(8, 150, 185);
 }
-/*texto escribe el msj que recibiste y el que quieres enviar(para codificar y decodificar)*/
+/*texto escribe el msj que recibiste y lo descubriras*/
 #tDecoded {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 /*texto n de desplazamiento*/
-#tCoded {
+#tDisplace{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    }
+}
 /*Textarea, cuadro de texto para ingresar el msj para decodificar*/
 #sendDecoded{
     resize: none;
@@ -57,10 +57,13 @@ h2{
     position: relative;
     bottom: 0px;
 }
-/*Texto el mensaje Decodificado es*/
-.answerDecoded {
+/*la frase de resultado*/
+#msjDecoded{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    }
+    color: rgb(5, 68, 68);
+    font-weight: bold;
+    font-size: 15px;
+}
 /*Ubicación del cuadro "Codificar"*/
 .second-section {
     float: right;
@@ -80,16 +83,20 @@ h2{
     height:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
+/*es el texto de "escribe tu msj que quieres enviar*/
+#tCoded {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    }
 /*boton ingresar (mensaje para enviar)*/
 #btnEnterCoded {
     position: relative;
     bottom: 0px;    
 }
-/*Texto el mensaje codificado es*/
-.answerCoded{
+/*la frase de resultado*/
+#msjCoded{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: rgb(5, 68, 68);
+    font-size: 15px;
 }
-/*Nota para saber como enviar el msj codificado*/
-
 
    

@@ -28,7 +28,7 @@ window.cipher = { /* Acá va tu código */
       //convierte mayuscula la frase incresada
       let tMayus= codedSend.toUpperCase();
       //Formula del decifrado 
-      fraseCoded= (tMayus.charCodeAt(i) + 90 - parseInt(codedNumber)) % 26 - 90;
+      fraseCoded= (tMayus.charCodeAt(i) + 65) - (parseInt(codedNumber)) % 26 + 65;
       //para que aparezca el espacio que es en ASCII n°32
       if (tMayus.charCodeAt(i)===32){
         result += " ";
