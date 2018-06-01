@@ -1,6 +1,6 @@
 # PREPARA UNA FIESTA SORPRESA
 
-# Sí estás pensando en organizar una fiesta sorpresa y no sabes cómo enviar mensajes de texto sin que puedas ser descubierto, esta aplicación es para ti.
+#### Sí estás pensando en organizar una fiesta sorpresa y no sabes cómo enviar mensajes de texto sin que puedas ser descubierto, esta aplicación es para ti.
 
 Tienes dos opciones:
 
