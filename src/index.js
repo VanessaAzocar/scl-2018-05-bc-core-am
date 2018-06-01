@@ -13,8 +13,8 @@ window.onload = () => {
   const coded = document.getElementById("btnEnterCoded");/*para traer el valor del boton*/ 
     coded.addEventListener ("click",() => {  /*evento click*/
     let codedSend = document.getElementById("receivedCoded").value;/*para guardar el texto que ingreso el usuario en texarea */
-    let codednumber = document.getElementById("numberCoded").value;/*para guardar el numero que ingreso el usuario en texarea */
-    let resultEncoded = window.cipher.encode(codedSend, codednumber); /*para enlazar el texto codificado*/
+    let codedNumber = document.getElementById("numberCoded").value;/*para guardar el numero que ingreso el usuario en texarea */
+    let resultEncoded = window.cipher.decode(codedSend, codedNumber); /*para enlazar el texto codificado*/
     document.getElementById("msjCoded").innerHTML = "<strong>El mensaje codificado es: </strong>" + "<strong>"+ resultEncoded + "</strong>" + "<br><br>*Ahora puedes copiar y enviar este mensaje, solo indicando el número de desplazamiento y será secreto!!!</br></br>"; /*que reguese el resultado*/
   })
 
