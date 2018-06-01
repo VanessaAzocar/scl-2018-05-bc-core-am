@@ -1,6 +1,6 @@
 window.cipher = { /* Acá va tu código */
+  //CODIFICAR
   encode: (decodedSend, decodedNumber) => {
-    //
     let result = "";
     let i =0;
       //iteracion que hara a mi frase
@@ -19,9 +19,24 @@ window.cipher = { /* Acá va tu código */
       } 
     return result;
   },
-
-
-  decode: (codedSend, codednumber) => {
-    /* Acá va tu código */
+  //DECODIFICAR
+  decode: (codedSend, codedNumber) => {
+    let result = "";
+    let i =0;
+      //iteracion que hara a mi frase
+      for ( i ; i < codedSend.length; i++) {
+      //convierte mayuscula la frase incresada
+      let tMayus= codedSend.toUpperCase();
+      //Formula del decifrado 
+      fraseCoded= (tMayus.charCodeAt(i) + 90 - parseInt(codedNumber)) % 26 - 90;
+      //para que aparezca el espacio que es en ASCII n°32
+      if (tMayus.charCodeAt(i)===32){
+        result += " ";
+        } else{ 
+        //guarda cada resultado de cada letra para despues mostrar la frase completa
+        result += String.fromCharCode(fraseCoded);
+        }   
+      } 
+    return result;
   }
 }
