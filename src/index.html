@@ -10,6 +10,7 @@
   <!-- Seccion completa -->
   <section class="global-section">
     <h1>ORGANIZA TU FIESTA SORPRESA</h1>
+
     <!-- Primer cuadro para decodificar -->
     <section class= "first-section">
         <!-- Este es el título de mi Cifrado-->
@@ -19,13 +20,15 @@
         <!-- con textarea se puede adaptar el tamaño de la caja de registro -->
         <textarea id="sendDecoded" placeholder="Mensaje recibido"></textarea>
         <!-- Indicar numero posiciones del codigo cifrado -->
-        <p id = "tTwo">N° de desplazamiento</p>
-        <input class="numberDecoded" type="number" min="1" max="100">
+        <p id= "tTwo">N° de desplazamiento</p>
+        <input id="numberDecoded" type="number" min="1" max="100">
+        <!-- boton para ingresar el n° de desplazamiento -->
         <button id= "btnEnterDecoded">Ingresar</button>
-        <!-- texto de tu codigo decodificado, se debe unir en js con document.getElementById-->
-         <p class="answerDecoded" id = "msjDecoded">El mensaje oculto <strong>decodificado</strong> es:</p> 
+        <!-- mensaje con la solucion-->
+        <p id= "msjDecoded"></p>
     </section>
-        <!-- Segundo cuadro para Codificar -->
+
+            <!-- Segundo cuadro para Codificar -->
     <section class= "second-section">
         <!-- Este es el título de mi texto Decodificado-->
         <h2>¡OCULTA TU MENSAJE!</h2>
@@ -34,14 +37,12 @@
         <!-- con textarea se puede adaptar el tamaño de la caja de registro -->
         <textarea id="receivedCoded" placeholder="Mensaje para enviar"></textarea>
         <!-- Indicar posiciones del codigo decodificado -->
-        <p id = "tTwo">N° de desplazamiento</p> 
-        <input class="numberCoded" type="number" min="1" max="100">
-        <button id="btnEnterCoded">Ingresar</button>
-        <!-- texto de tu codigo codificado se debe unir en js con document.getElementById-->
-        <p class="answerCoded" id="msjCoded">El mensaje <strong>codificado</strong> es:</p> 
-        <!-- Nota al momento de codificar se debe unir en js con document.getElementById-->
-        <p class="noteCoded" id="note">*Ahora puedes copiar y enviar este mensaje, solo indicando el número de desplazamiento y será secreto!!!</p>
-
+        <p id= "tTwo">N° de desplazamiento</p> 
+        <input id="numberCoded" type="number" min="1" max="100">
+        <!-- boton para ingresar el n° de desplazamiento -->
+        <button id="btnEnterCoded">Ingresar</button>   
+        <!-- mensaje con la solucion-->
+        <p id= "msjCoded"></p>         
     </section>
 
   </section>

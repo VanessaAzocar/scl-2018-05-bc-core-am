@@ -15,6 +15,8 @@ h1{
     color: rgb(7, 56, 85);
     background-color: white;
     border-radius: 5px;
+    border: solid 2px;
+    border-color: grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 /*Ubicación del segundo cuadro "Decodificar"*/
@@ -60,6 +62,7 @@ h2{
     }
 /*Ubicación del cuadro "Codificar"*/
 .second-section {
+    float: right;
     background-color: white;
     border: solid 3px;
     border-color: grey;
@@ -68,8 +71,7 @@ h2{
     width: 600px;
     height: 350px;
     display: inline-block;
-    float: right
-}
+    }
 /*Textarea, cuadro de texto para ingresar el msj para codificar*/
 #receivedCoded {
     resize: none;
@@ -87,8 +89,6 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 /*Nota para saber como enviar el msj codificado*/
-.noteCoded{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
-}
+
 
    
