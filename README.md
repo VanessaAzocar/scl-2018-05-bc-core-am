@@ -18,7 +18,7 @@ Tienes dos opciones:
 
 *Ya puedes descubrir el mensaje secreto que te enviaron!!!
 
-## Descarga la aplicación
+## Descarga la aplicación 
 * Ingresa a este [link](https://github.com/VanessaAzocar/scl-2018-05-bc-core-am.git)
 * Descarga la aplicación haciendo click en el botón verde llamado "clone or download" que se       encuentra en la esquina superior derecha.
 * Haz click en "Download ZIP" y descarga la carpeta donde prefieras.
@@ -29,7 +29,7 @@ Tienes dos opciones:
 *LISTO! Ahora puedes Codificar y Decodificar tus mensajes. 
  
 ### El Diseño
-Esta aplicación cumple la función de codificar y  decodificar mensajes, para que estos sean secretos. Fue diseñada privilegiando la simplicidad y buen entendimiento para su uso. Para codificar y decodificar los mensajes que el usuario ingrese, se utiliza la fórmula del “cifrado cesar”, técnica que se consideró no relevante para explicar su funcionamiento al usuario, por lo que se dio énfasis en la usabilidad de la aplicación.
+Esta aplicación cumple la función de codificar y  decodificar mensajes, para que estos sean secretos. Fue diseñada privilegiando la simplicidad y buen entendimiento para su uso. Para codificar y decodificar los mensajes que el usuario ingrese, se utiliza la fórmula del “cifrado cesar”, técnica que se consideró no relevante para explicar su funcionamiento al usuario, por lo que solo se dio énfasis en la usabilidad de la aplicación.
 
 
 
